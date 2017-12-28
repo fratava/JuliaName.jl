@@ -3,11 +3,7 @@
 This is my first package on Julia. Enjoy! :D
 
 
-# ExamplePackage
-
-[![Build Status](https://travis-ci.org/ChrisRackauckas/ExamplePackage.jl.svg?branch=master)](https://travis-ci.org/ChrisRackauckas/ExamplePackage.jl)
-[![Build status](https://ci.appveyor.com/api/projects/status/9iuvdt0j0mw6au0k?svg=true)](https://ci.appveyor.com/project/ChrisRackauckas/examplepackage-jl)
-[![Coverage Status](https://coveralls.io/repos/github/ChrisRackauckas/ExamplePackage.jl/badge.svg?branch=master)](https://coveralls.io/github/ChrisRackauckas/ExamplePackage.jl?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/fratava/JuliaName.jl/badge.svg?branch=master)](https://coveralls.io/github/fratava/JuliaName.jl?branch=master)
 
 This is an example Julia repository. It was generated using:
 
