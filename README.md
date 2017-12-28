@@ -2,10 +2,14 @@
 
 This is my first package on Julia. Enjoy! :D
 
-<!---
-
 [![Coverage Status](https://coveralls.io/repos/github/fratava/JuliaName.jl/badge.svg?branch=master)](https://coveralls.io/github/fratava/JuliaName.jl?branch=master)
 
+[![Build Status](https://travis-ci.org/fratava/JuliaName.jl.svg?branch=master)](https://travis-ci.org/fratava/JuliaName.jl)
+
+[![Build status](https://ci.appveyor.com/api/projects/status/nxx64aoritauv60t?svg=true)](https://ci.appveyor.com/project/fratava/julianame-jl-q6gj4)
+
+
+<!---
 This is an example Julia repository. It was generated using:
 
 ```julia
