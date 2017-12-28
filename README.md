@@ -2,6 +2,7 @@
 
 This is my first package on Julia. Enjoy! :D
 
+<!---
 
 [![Coverage Status](https://coveralls.io/repos/github/fratava/JuliaName.jl/badge.svg?branch=master)](https://coveralls.io/github/fratava/JuliaName.jl?branch=master)
 
@@ -60,3 +61,5 @@ The Julia Discourse is a forum of Julia users for general questions, with subtop
 https://discourse.julialang.org/
 
 Lastly, you can also post to StackOverflow using the tag julia-lang.
+
+-->
