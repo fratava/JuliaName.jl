@@ -6,6 +6,19 @@ This is my first package on Julia. Enjoy! :D
 [![Build Status](https://travis-ci.org/fratava/JuliaName.jl.svg?branch=master)](https://travis-ci.org/fratava/JuliaName.jl)
 [![Build status](https://ci.appveyor.com/api/projects/status/nxx64aoritauv60t?svg=true)](https://ci.appveyor.com/project/fratava/julianame-jl-q6gj4)
 
+Como crear un paquete nuevo:
+
+```julia
+#Pkg.add("PkgDev")
+using PkgDev
+PkgDev.generate("JuliaName","MIT")
+# Pkg.add("Documenter")
+using Documenter
+Documenter.generate("JuliaName")
+```
+
+
+
 
 <!---
 This is an example Julia repository. It was generated using:

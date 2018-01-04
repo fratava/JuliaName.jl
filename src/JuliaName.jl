@@ -39,12 +39,16 @@ abstract AbstractMyType2 <: AbstractMyType
 # Note: You should try to keep exports to a minimum. Exports are the public API:
 # internal functionality should not be exported!
 
-export output_string, added_function
+#export output_string, added_function
+export BubbleSort, SelectionSort, Insertionsort
 
 # Now include the real code
 # Write your code in other files, otherwise the package outline gets muddled
 
-include("output_string.jl")
-include("my_new_file.jl")
+#include("output_string.jl")
+#include("my_new_file.jl")
+include("bubblesort.jl")
+include("selectionsort.jl")
+include("insertionsort.jl")
 
 end # module
