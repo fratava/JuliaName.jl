@@ -1,9 +1,31 @@
+#This files is for runtest.jl
 using JuliaName
 using Base.Test
 
+#testfiles= (
+#    "bubble_test.jl",
+#    "insertion_test.jl",
+#    "selection_test.jl"
+#)
+
+#for file in testfiles
+#    @testset "Output String Tests" begin include(testfiles) end
+#end
+
+@testset "Sort O(n^2)" begin
+include("bubble_test.jl")
+include("insertion_test.jl")
+include("selection_test.jl")
+end
+#@testset "InsertionSort Test" begin include("insertion_test.jl") end
+#@testset "SelectionSort Test" begin include("selection_test.jl") end
+
+
+#using JuliaName
+#using Base.Test
+
 # write your own tests here
 #@test 1 == 2
-
 
 # The testing setup
 # Here we split different categories into tests
@@ -20,5 +42,8 @@ using Base.Test
 # large performance regressions.
 
 # @testset begin
-@testset "Output String Tests" begin include("output_string_tests.jl") end
+#@testset "Output String Tests" begin include("output_string_tests.jl") end
+
+#@testset ""
+
 # end

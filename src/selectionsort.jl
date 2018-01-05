@@ -1,4 +1,4 @@
-function SelectionSort(x::Array)
+function SelectionSort(x::AbstractVector)
     for i = 1:length(x)
         min = i
 

@@ -1,4 +1,4 @@
-function BubbleSort(x::Array)
+function BubbleSort(x::AbstractVector)
 
    for i=length(x):-1:1
         for j=2:i

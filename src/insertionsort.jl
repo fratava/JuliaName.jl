@@ -1,4 +1,4 @@
-function Insertionsort(x::Array)
+function Insertionsort(x::AbstractVector)
     for i = 2:length(x)
         index = x[i]
         j = i
